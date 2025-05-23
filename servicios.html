@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Servicios</title>
+  <link rel="stylesheet" href="css/estilos.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Nuestros Servicios</h1>
+
+    <div class="card">
+      <h2>Desarrollo Web</h2>
+      <button onclick="toggleInfo('web')">Ver más</button>
+      <p id="info-web" class="info" style="display: none;">
+        Creamos sitios web responsivos, seguros y optimizados para buscadores. Usamos tecnologías modernas como HTML5, CSS3, y frameworks actuales.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Asesoría Técnica</h2>
+      <button onclick="toggleInfo('asesoria')">Ver más</button>
+      <p id="info-asesoria" class="info" style="display: none;">
+        Ofrecemos soporte técnico remoto y presencial, diagnóstico de problemas y soluciones adaptadas a tus necesidades tecnológicas.
+      </p>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 AyudaTech Solutions</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
